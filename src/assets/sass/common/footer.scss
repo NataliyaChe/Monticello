@@ -1,0 +1,24 @@
+.footer {
+    background-image: url('../../img/background-footer.jpg');
+    padding-top: 203px;
+    padding-bottom: 234px;
+    margin-bottom: 0;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__logo {
+        margin-bottom: 41px;
+    }
+
+    &__copyright {
+        font-family: $title-font;
+        font-size: 14px;
+        line-height: 17px;
+        color: $white-color;
+
+    }
+}

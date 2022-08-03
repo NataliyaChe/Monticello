@@ -1,0 +1,15 @@
+//variables
+@import './variables/fonts';
+@import './variables/color';
+@import './variables/sizing';
+
+//global
+@import './global/resets.scss';
+@import './global/global.scss';
+
+//common
+@import './common/header.scss';
+@import './common/footer.scss';
+
+//pages
+@import './pages/home.scss';

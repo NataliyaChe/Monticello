@@ -1,0 +1,75 @@
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 0 215px;
+    margin-bottom: 150px;
+}
+
+.logo { 
+    max-width: 241px;
+}
+
+.btn {
+    background-color: $white-color;
+    font-family: $title-font;
+    font-size: 14px;
+    line-height: 17px;
+    color: $black-color;
+    width: 190px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    border: 1px solid $main-color;
+
+    &:hover {
+        border: 1px solid $decoration-color;
+        color: $decoration-color;
+    }
+
+    &:focus {
+        border: 1px solid $white-color;
+        color: $white-color;
+        background-color: $decoration-color;
+    }
+}
+
+.heading {
+    font-family: $title-font;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color: $main-color;  
+    text-align: center;
+    margin-bottom: 90px;
+
+    &:before {
+        content: '';
+        display: block;
+        height: 1px;
+        background: $main-color; 
+        width: 100px; 
+        margin: 0 auto 30px;
+    }
+}
+
+.text {
+    font-family: $text-font;
+    font-size: 18px;
+    line-height: 30px;
+    color: $main-color;
+}
+
+.flex-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+} 
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
