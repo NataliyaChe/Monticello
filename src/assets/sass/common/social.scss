@@ -1,0 +1,26 @@
+.path {
+
+    &:hover, &:active {
+        fill: $main-color;
+    }
+}
+
+.circle {
+
+    &:hover, &:active {
+        stroke: $main-color;
+    }
+}
+
+.icon {
+
+    &:hover {
+        fill: $white-color;
+        stroke: $main-color;
+    }
+
+    &:active {
+        fill: $main-color;
+        stroke: $main-color;
+    }
+}

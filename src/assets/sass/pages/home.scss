@@ -103,6 +103,7 @@
     }
 
     &__content {
+        position: relative;
         gap: 30px;
     }
 
@@ -154,6 +155,20 @@
         line-height: 17px;
         color: $decoration-color;
     }
+}
+
+#arrow-left {
+    position: absolute;
+    left: -80px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#arrow-right {
+    position: absolute;
+    right: -180px;
+    top: 50%;
+    transform: translate(0, -50%);    
 }
 
 .gallery {
