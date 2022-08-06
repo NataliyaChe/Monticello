@@ -94,6 +94,7 @@
 
 .news {
     background-image: url('../../img/news/news-background.jpg');
+    background-size: contain;
 
     &__container {
     padding-top: 120px;
@@ -169,8 +170,8 @@
 
     &__content {
         display: grid;
-        gap: 10px;
-        grid-template-columns: 580px 285px 285px;
+        grid-gap: 10px;
+        grid-template-columns: 580px, repeat(2, 285px);
         grid-template-rows: repeat (2, 1fr);
         margin-bottom: 60px;
     }
