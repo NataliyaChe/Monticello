@@ -1,15 +1,14 @@
 html {
-    scroll-behavior: smooth;
+    // scroll-behavior: smooth;
 }
 
 .wrapper {
     max-width: 1600px;
-    margin: 0 auto;
 }
 
-.section {
-    padding: 0 215px;
-    margin-bottom: 150px;
+.container {
+    max-width: 1170px;
+    margin: 0 auto 150px;
 }
 
 .logo { 
@@ -61,7 +60,7 @@ html {
 .text {
     font-family: $text-font;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 25px;
     color: $main-color;
 }
 
@@ -69,7 +68,6 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
 } 
 
 .flex-column {

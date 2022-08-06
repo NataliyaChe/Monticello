@@ -3,11 +3,10 @@
     padding-bottom: 50px;
     margin-bottom: 100px;
     background-image: url('../../img/background-header.png'), url('../../img/bg-gradient-header.png');
-    // background-size: cover;
     background-size: auto 100%;
 
     &__nav {
-        margin-bottom: 223px; 
+        padding: 0 215px;
     }
 
     &__nav-content {
@@ -23,10 +22,6 @@
         font-size: 14px;
         line-height: 18px;
         color: $white-color;
-
-        &:hover {
-            border-bottom: 1px solid $white-color;
-        }
     }
 
     &__menu-item {
@@ -34,6 +29,11 @@
         padding-left: 24px;
         background-position: left;
         
+        &:hover {
+            background: url(../../img/list-marker01.svg) no-repeat;
+            padding-left: 24px;
+            background-position: left;
+        }
     }
 
     &__title {
@@ -59,12 +59,8 @@
     }
 
     &__arrow-icon {  
+        display: block;
         text-align: center;
     }
 }
 
-// .mark {
-//     margin-right: 14px;
-// }
-
-// ul { list- style: none; } li{ background: url(путь- к- картинке) no- repeat; padding- left: 20px; }

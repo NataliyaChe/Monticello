@@ -1,26 +1,11 @@
-.path {
-
-    &:hover, &:active {
-        fill: $main-color;
-    }
-}
-
-.circle {
-
-    &:hover, &:active {
-        stroke: $main-color;
-    }
+.social {
+    gap: 20px
 }
 
 .icon {
 
-    &:hover {
-        fill: $white-color;
-        stroke: $main-color;
-    }
-
-    &:active {
+    &:hover, &:active {
         fill: $main-color;
-        stroke: $main-color;
+        // stroke: $main-color;
     }
 }
